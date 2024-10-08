@@ -1,7 +1,9 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
+    padding: 0;
 }
+
 /* header related styles */
 
 h2 {
@@ -47,11 +49,40 @@ img {
     font-size: 16px;
     font-weight: 700;
 }
+
 .name {
     color: white;
 }
+
 /* main section related styles */
 .main-sect {
     display: flex;
     padding: 4.5%;
+}
+
+/* footer */
+
+.common-paragraph {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.speicial-head {
+    text-align: center;
+    padding: 35px 600px 0 600px;
+}
+.skill-container {
+    display: flex;
+    padding: 0 10%;
+}
+.skill {
+    box-shadow: 10px 5px 40px 0px #000;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    background-image: linear-gradient(blue,cyan) 0 100%;
+}
+h5 {
+    text-align: center;
 }
